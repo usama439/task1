@@ -1,11 +1,94 @@
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
      width: 375px;
      height: 718px;
 }
 .navbar{
     width: 375px ;
     height: 48px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: Hug (100px) ;
+    height: Hug (40px) ;
+    top: 4px ;
+    left: 12px ;
+    padding: 10px, 12px, 10px, 12px;
+    /* border: 1px solid rgb(198, 97, 25); */
+   
+    
+}
+.logot{
+    width: 76px ;
+    height: 20px;
+    font-family: Poppins;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6070FF;
+}
+.hamburgur{
+width: Hug (40px) ;
+height: Hug (40px) ;
+top: 4px ;
+left: 311px ;
+padding: 8px ;
+border-radius: 8px;
+
+}
+.hamicon{
+    width: 24px ;
+    height: 24px ;
+    padding: 6px, 3px, 6px, 3px
+}
+
+.head{
+    /* border: 3px solid green; */
+    /* border: 1px solid green; */
+    width: Hug (375px);
+     height: Hug (604px) ;top: 92px ;padding: 114px, 24px, 114px, 24px ;gap: 12px
+}
+.ptest{
+    width: 327px;
+     height: 150px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.ptext1{
+    width: 327px ;
+    height: 146px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.ptext2{
+    width: 117px ;
+    height: 24px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #7F8CFF;
+}
+.icons{
+width: 170.17px ;
+height: 20px;
+margin-top: 26px;
+/* border: 1px solid green; */
+}
+.icons img{
+    margin: 10px;
 }
