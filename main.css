@@ -2,6 +2,14 @@
     /* border: 1px solid black; */
      width: 375px;
      height: 718px;
+    
+}
+.container {
+    background-image: (“"E:\portfolio\task1\P1.jpg"”);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 .navbar{
     width: 375px ;
@@ -10,21 +18,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat
+
+}
+
 .logo{
-    width: Hug (100px) ;
-    height: Hug (40px) ;
-    top: 4px ;
+    width: Hug (120px) ;
+    height: Hug (60px) ;
+    top: 6px ;
     left: 12px ;
     padding: 10px, 12px, 10px, 12px;
     /* border: 1px solid rgb(198, 97, 25); */
    
-    
 }
 .logot{
-    width: 76px ;
-    height: 20px;
+    width: 100px ;
+    height: 40px;
     font-family: Poppins;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0em;
@@ -53,11 +67,11 @@ border-radius: 8px;
      height: Hug (604px) ;top: 92px ;padding: 114px, 24px, 114px, 24px ;gap: 12px
 }
 .ptest{
-    width: 327px;
+    width: 200px;
      height: 150px;
         font-family: Poppins;
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 20px;
+        font-weight: 600
         line-height: 52px;
         letter-spacing: 0em;
         text-align: left;
@@ -91,4 +105,11 @@ margin-top: 26px;
 }
 .icons img{
     margin: 10px;
+}
+.right-corner-image {
+    position: absolute;
+    top: 0;
+    /* Adjust this value as needed to position the image vertically */
+    right: 0;
+    /* Adjust this value as needed to position the image horizontally */
 }
